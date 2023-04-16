@@ -7,7 +7,11 @@ fun main(){
     var b = 3 //Variable
     println("a = $a\nb = $b")
 
-
+    newTopic("Datos nulos y de cualquier valor")
+    var objNull: Any? //Cualquier valor
+    objNull = null
+    objNull = "Leo"
+    print(objNull)
 }
 
 fun newTopic(topic: String){
